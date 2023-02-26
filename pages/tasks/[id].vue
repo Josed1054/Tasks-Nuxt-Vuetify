@@ -107,7 +107,7 @@ async function deleteTask() {
               class="w-100"
               style="max-width: 32rem"
               @click="toggleCompleted()"
-              >{{ taskCompleted === 1 ? 'Completed' : 'Incomplete' }}</v-btn
+              >{{ taskCompleted === 1 ? 'Complete' : 'Incomplete' }}</v-btn
             >
           </v-col>
           <template class="d-flex align-center flex-column">
@@ -162,7 +162,7 @@ async function deleteTask() {
             <v-card-title>{{
               `Are you sure you want to delete the task ${id}?`
             }}</v-card-title>
-            <v-card-text>This action cannot be reversed.</v-card-text>
+            <v-card-text>This action cannot be undone.</v-card-text>
             <v-card-actions>
               <div
                 class="w-100 my-4 d-flex justify-space-around align-items-center"

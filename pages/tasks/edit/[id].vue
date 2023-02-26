@@ -97,7 +97,7 @@ function navigateToTasks() {
           ></v-text-field>
           <v-checkbox
             v-model="is_completed"
-            :label="is_completed ? 'Completed ✅' : 'Not Completed ❌'"
+            :label="is_completed ? 'Complete' : 'Incomplete'"
           ></v-checkbox>
           <v-textarea v-model="description" label="Description"></v-textarea>
           <v-text-field v-model="token" label="Token"></v-text-field>

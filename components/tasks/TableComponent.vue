@@ -31,7 +31,7 @@
             <v-btn
               :color="value.done ? 'green' : 'red'"
               @click="value.action(item.id)"
-              >{{ value.done ? 'Completed' : 'Incomplete' }}</v-btn
+              >{{ value.done ? 'Complete' : 'Incomplete' }}</v-btn
             >
           </td>
 

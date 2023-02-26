@@ -167,7 +167,7 @@ async function deleteTask() {
           <v-card-title>{{
             `Are you sure you want to delete the task ${deleteId}?`
           }}</v-card-title>
-          <v-card-text>This action cannot be reversed.</v-card-text>
+          <v-card-text>This action cannot be undone.</v-card-text>
           <v-card-actions>
             <div
               class="w-100 my-4 d-flex justify-space-around align-items-center"
