@@ -73,9 +73,6 @@ export default {
       default: false,
     },
   },
-  onMounted() {
-    console.log(this.actions);
-  },
 };
 </script>
 
